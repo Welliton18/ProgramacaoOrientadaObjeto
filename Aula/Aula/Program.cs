@@ -25,8 +25,8 @@ namespace Aula {
             Console.WriteLine("Qual o seu Salário?");
             iSalario = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("O Senhor(a) "+ sNome+ ", portador(a) do RG de número "+ sRg+
-                   ", nascido em "+ sDataNascimento + ", do sexo ("+sSexo+"), está registrado com o salário de R$"+ iSalario+".")
+            Console.WriteLine("O Senhor(a) " + sNome + ", portador(a) do RG de número " + sRg +
+                               ", nascido em " + sDataNascimento + ", do sexo (" + sSexo + "), está registrado com o salário de R$" + iSalario + ".");
         }
     }
 }
