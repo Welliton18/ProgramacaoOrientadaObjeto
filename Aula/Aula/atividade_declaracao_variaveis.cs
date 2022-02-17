@@ -4,6 +4,17 @@ using System;
 class AtividadeDeclaracaoVariaveis {
 
     static void Main(){
+        //primeiraAtividade();
+        /*
+        bool bOk = true;
+        bool bNotOk = false;
+
+        Console.WriteLine("Valor ok: " + bOk);
+        Console.WriteLine("Valor ok: " + bNotOk);
+        Console.ReadKey();*/
+    }
+
+    static void primeiraAtividade() {
         ModelPessoa oPessoa = new ModelPessoa();
 
         Console.WriteLine("Qual o seu Nome?");
@@ -22,7 +33,7 @@ class AtividadeDeclaracaoVariaveis {
         oPessoa.Salario = double.Parse(Console.ReadLine());
 
         Console.WriteLine("O Senhor(a) " + oPessoa.Nome + ", portador(a) do RG de número " + oPessoa.Rg +
-                            ", nascido em " + oPessoa.DataNascimento + ", do sexo (" + oPessoa.Sexo + 
+                            ", nascido em " + oPessoa.DataNascimento + ", do sexo (" + oPessoa.Sexo +
                             "), está registrado com o salário de R$" + oPessoa.Salario + ".");
     }
 
