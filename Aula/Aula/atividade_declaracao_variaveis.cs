@@ -4,6 +4,8 @@ using System;
 class AtividadeDeclaracaoVariaveis {
 
     static void Main(){
+        testeRepeticao oTeste = new testeRepeticao();
+        oTeste.atividade_5();
         //primeiraAtividade();
         /*
         bool bOk = true;
