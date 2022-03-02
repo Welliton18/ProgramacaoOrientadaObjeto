@@ -4,16 +4,25 @@ using System;
 class AtividadeDeclaracaoVariaveis {
 
     static void Main(){
-        testeRepeticao oTeste = new testeRepeticao();
-        oTeste.atividade_5();
-        //primeiraAtividade();
-        /*
-        bool bOk = true;
-        bool bNotOk = false;
+        testeRepeticao oRepeticao = new testeRepeticao();
 
-        Console.WriteLine("Valor ok: " + bOk);
-        Console.WriteLine("Valor ok: " + bNotOk);
-        Console.ReadKey();*/
+        //oRepeticao.atividade_1();
+        //oRepeticao.atividade_2();
+        //oRepeticao.atividade_3();
+        //oRepeticao.atividade_4();
+        //oRepeticao.atividade_5();
+
+        atividadeArray oAtividadeArray = new atividadeArray();
+        Console.WriteLine("Atividade 1:");
+        oAtividadeArray.atividade_1();
+
+        Console.WriteLine("");
+        Console.WriteLine("Atividade 2:");
+        oAtividadeArray.atividade_2();
+
+        Console.WriteLine("");
+        Console.WriteLine("Atividade 3:");
+        oAtividadeArray.atividade_3();
     }
 
     static void primeiraAtividade() {
